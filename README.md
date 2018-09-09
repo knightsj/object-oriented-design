@@ -37,7 +37,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 - 不以改动原有类的方式来实现新需求，而是应该以实现事先抽象出来的接口（或具体类继承抽象类）的方式来实现。
 
 
-#### UML 类图对比
+### UML 类图对比
 
 未实践开闭原则：
 ![未实践开闭原则](http://oih3a9o4n.bkt.clouddn.com/OCP11.png)
@@ -46,7 +46,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 ![实践了开闭原则](http://oih3a9o4n.bkt.clouddn.com/OCP2.png)
 
 
-#### Demo
+### Demo
 
 1. 未实践开闭原则：[OCPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B2%5D.%20Open%20Close%20Principle/OCPDemo1)
 2. 实践了开闭原则：[OCPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B2%5D.%20Open%20Close%20Principle/OCPDemo2)
@@ -73,7 +73,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-#### UML 类图对比
+### UML 类图对比
 
 未实践单一职责原则：
 ![未实践单一职责原则](http://oih3a9o4n.bkt.clouddn.com/SRP11.png)
@@ -82,7 +82,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 实践了单一职责原则：
 ![实践了单一职责原则](http://oih3a9o4n.bkt.clouddn.com/SRP2.png)
 
-#### Demo
+### Demo
 
 
 1. 未实践单一职责原则：[SRPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B1%5D%20.Single%20Responsibility%20Principle/SRPDemo1)
@@ -114,7 +114,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-#### UML 类图对比
+### UML 类图对比
 
 未实践依赖倒置原则：
 
@@ -124,7 +124,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 实践了依赖倒置原则：
 ![实践了依赖倒置原则](http://oih3a9o4n.bkt.clouddn.com/DIP22.png)
 
-#### Demo
+### Demo
 
 1. 未实践依赖倒置原则：[DIPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B6%5D.%20Dependency%20Inversion%20Principle/DIPDemo1)
 2. 实践了依赖倒置原则：[DIPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B6%5D.%20Dependency%20Inversion%20Principle/DIPDemo2)
@@ -152,7 +152,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-#### UML 类图对比
+### UML 类图对比
 
 未实践接口分离原则：
 ![未实践接口分离原则](http://oih3a9o4n.bkt.clouddn.com/ISP1.png)
@@ -163,7 +163,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 >通过遵守接口分离原则，接口的设计变得更加简洁，而且各种客户类不需要实现自己不需要实现的接口。
 
-#### Demo
+### Demo
 
 1. 未实践接口分离原则：[ISPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B5%5D.%20Interface%20Segregation%20Principle/ISPDemo1)
 2. 实践了接口分离原则：[ISPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B5%5D.%20Interface%20Segregation%20Principle/ISPDemo2)
@@ -183,7 +183,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 - 迪米特原则也叫做最少知道原则（Least Know Principle）， 一个类应该只和它的成员变量，方法的输入，返回参数中的类作交流，而不应该引入其他的类（间接交流）。
 
 
-#### UML 类图对比
+### UML 类图对比
 
 未实践迪米特法则：
 ![未实践迪米特法则](http://oih3a9o4n.bkt.clouddn.com/LOD111.png)
@@ -195,7 +195,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 >很明显，在实践了迪米特法则的 UML 类图里面，没有了``Client``对``GasEngine``的依赖，耦合性降低。
 
-#### Demo
+### Demo
 
 1. 未实践迪米特法则：[LODDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B4%5D.%20Law%20of%20Demeter/LODDemo1)
 2. 实践了迪米特法则：[LODDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B4%5D.%20Law%20of%20Demeter/LODDemo2)
@@ -217,7 +217,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-#### UML 类图对比
+### UML 类图对比
 
 未实践里氏替换原则：
 
@@ -228,7 +228,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 实践了里氏替换原则：
 ![实践了里氏替换原则](http://oih3a9o4n.bkt.clouddn.com/LSP22.png)
 
-#### Demo
+### Demo
 
 1. 未实践里氏替换原则：[LSPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B3%5D.%20Liskov%20Substitution%20Principle/LSPDemo1)
 2. 实践了里氏替换原则：[LSPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B3%5D.%20Liskov%20Substitution%20Principle/LSPDemo2)
