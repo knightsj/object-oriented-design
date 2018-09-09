@@ -45,8 +45,8 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### Demo
 
-1. 未实践开闭原则：[]()
-2. 实践了开闭原则：[]()
+1. 未实践开闭原则：[OCPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B2%5D.%20Open%20Close%20Principle/OCPDemo1)
+2. 实践了开闭原则：[OCPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B2%5D.%20Open%20Close%20Principle/OCPDemo2)
 
 
 
@@ -81,8 +81,9 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### Demo
 
-1. 未实践单一职责原则：[]()
-2. 实践了单一职责原则：[]()
+
+1. 未实践单一职责原则：[SRPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B1%5D%20.Single%20Responsibility%20Principle/SRPDemo1)
+2. 实践了单一职责原则：[SRPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B1%5D%20.Single%20Responsibility%20Principle/SRPDemo2)
 
 
 
@@ -122,9 +123,9 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### Demo
 
+1. 未实践依赖倒置原则：[DIPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B6%5D.%20Dependency%20Inversion%20Principle/DIPDemo1)
+2. 实践了依赖倒置原则：[DIPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B6%5D.%20Dependency%20Inversion%20Principle/DIPDemo2)
 
-1. 未实践依赖倒置原则：[]()
-2. 实践了依赖倒置原则：[]()
 
 
 ## 原则四：接口分离原则（Interface Segregation Principle）
@@ -161,8 +162,8 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### Demo
 
-1. 未实践接口分离原则：[]()
-2. 实践了接口分离原则：[]()
+1. 未实践接口分离原则：[ISPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B5%5D.%20Interface%20Segregation%20Principle/ISPDemo1)
+2. 实践了接口分离原则：[ISPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B5%5D.%20Interface%20Segregation%20Principle/ISPDemo2)
 
 ## 原则五：迪米特法则（Law of Demeter）
 
@@ -193,8 +194,8 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### Demo
 
-1. 未实践迪米特法则：[]()
-2. 实践了迪米特法则：[]()
+1. 未实践迪米特法则：[LODDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B4%5D.%20Law%20of%20Demeter/LODDemo1)
+2. 实践了迪米特法则：[LODDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B4%5D.%20Law%20of%20Demeter/LODDemo2)
 
 ## 原则六：里氏替换原则（Liskov Substitution Principle）
 
@@ -226,8 +227,8 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### Demo
 
-1. 未实践里氏替换原则：[]()
-2. 实践了里氏替换原则：[]()
+1. 未实践里氏替换原则：[LSPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B3%5D.%20Liskov%20Substitution%20Principle/LSPDemo1)
+2. 实践了里氏替换原则：[LSPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B3%5D.%20Liskov%20Substitution%20Principle/LSPDemo2)
 
 # Chapter 2：面向对象设计模式（Object Oriented Design Patterns）
 
