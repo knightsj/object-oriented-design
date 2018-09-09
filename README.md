@@ -1,7 +1,10 @@
 
-![](res/header_new.png)
+![](res/header_compressed.png)
 
-Object-Oriented design:
+![](https://img.shields.io/badge/language-Objective--C-30A3FC.svg)
+[![](https://img.shields.io/badge/License-MIT-ff69b4.svg)](https://github.com/knightsj/object-oriented-design/blob/master/LICENSE)
+
+# Catalogue
 - Chapter 1: 面向对象设计原则（Object Oriented Design Principles）
 - Chapter 2: 面向对象设计模式（Object Oriented Design Patterns）
 
