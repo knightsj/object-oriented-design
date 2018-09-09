@@ -1,5 +1,5 @@
 
-![](res/header_compressed.png)
+![](res/banner.png)
 
 ![](https://img.shields.io/badge/language-Objective--C-30A3FC.svg)
 [![](https://img.shields.io/badge/License-MIT-ff69b4.svg)](https://github.com/knightsj/object-oriented-design/blob/master/LICENSE)
