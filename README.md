@@ -1,5 +1,5 @@
 
-![](res/header.png)
+![](res/header_new.png)
 
 Object-Oriented design:
 - Chapter 1: 面向对象设计原则（Object Oriented Design Principles）
