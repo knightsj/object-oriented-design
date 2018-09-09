@@ -193,7 +193,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 实践了迪米特法则：
 ![实践了迪米特法则](http://oih3a9o4n.bkt.clouddn.com/LOD2.png)
 
->很明显，在较好的设计的 UML 类图里面，没有了``Client``对``GasEngine``的依赖，耦合性降低。
+>很明显，在实践了迪米特法则的 UML 类图里面，没有了``Client``对``GasEngine``的依赖，耦合性降低。
 
 #### Demo
 
