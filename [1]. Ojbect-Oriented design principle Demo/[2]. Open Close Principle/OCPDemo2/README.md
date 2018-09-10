@@ -14,7 +14,7 @@
 ```objc
 //================== TextCourse.h ==================
 
-@interface TextCourse : NSObject
+@interface TextCourse : Course
 
 @property (nonatomic, copy) NSString *content;             //文字内容
 
