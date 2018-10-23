@@ -4,12 +4,16 @@
 ![](https://img.shields.io/badge/language-Objective--C-30A3FC.svg)
 [![](https://img.shields.io/badge/License-MIT-ff69b4.svg)](https://github.com/knightsj/object-oriented-design/blob/master/LICENSE)
 
+
+
 # Catalogue
+
 - Chapter 1: 面向对象设计原则（Object Oriented Design Principles）
 - Chapter 2: 面向对象设计模式（Object Oriented Design Patterns）
 
 
-# Chapter 1：面向对象设计原则（Object Oriented Design Principles）
+
+# Chapter 1：面向对象设计原则
 
 
 缩写 | 英文名称 | 中文名称
@@ -233,9 +237,227 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 1. 未实践里氏替换原则：[LSPDemo1](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B3%5D.%20Liskov%20Substitution%20Principle/LSPDemo1)
 2. 实践了里氏替换原则：[LSPDemo2](https://github.com/knightsj/object-oriented-design/tree/master/%5B1%5D.%20Ojbect-Oriented%20design%20principle%20Demo/%5B3%5D.%20Liskov%20Substitution%20Principle/LSPDemo2)
 
-# Chapter 2：面向对象设计模式（Object Oriented Design Patterns）
 
-Coming soon...
+
+# Chapter 2：面向对象设计模式
+
+
+
+## 2.1 创建型设计模式
+
+
+
+创建型设计模式分为：
+
+
+
+1. 简单工厂模式（Simple Factory Pattern）
+2. 工厂方法模式（Factory Method Pattern）
+3. 抽象工厂模式（Abstract Factory Pattern）
+4. 单例模式（Singleton Pattern）
+5. 生成器模式（Builder Pattern）
+6. 原型模式（Prototype Pattern）
+
+
+
+
+
+### 2.11 简单工厂模式
+
+
+
+#### 模式定义
+
+
+
+> 简单工厂模式(Simple Factory Pattern)：专门定义一个类（工厂类）来负责创建其他类的实例。可以根据创建方法的参数来返回不同类的实例，被创建的实例通常都具有共同的父类。
+
+
+
+#### 模式类图
+
+![简单工厂模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_sfp_1.png)
+
+
+
+#### Demo
+
+
+
+- Demo地址：[Simple Factory Pattern Demo](<https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B1%5D.%20SFPDemo>)
+
+- Demo对应类图：![简单工厂模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_sfp_2.png)
+
+
+
+
+
+
+
+### 2.12 工厂方法模式模式
+
+
+
+#### 模式定义
+
+
+
+> 工厂方法模式(Factory Method Pattern)又称为工厂模式，工厂父类负责定义创建产品对象的公共接口，而工厂子类则负责生成具体的产品对象，即通过不同的工厂子类来创建不同的产品对象。
+
+
+
+
+
+#### 模式类图
+
+![工厂方法模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_fmp_1.png)
+
+#### Demo
+
+
+
+- Demo地址：[Factory Method Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B2%5D.%20FMPDemo)
+
+- Demo对应类图：
+
+![工厂方法模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_fmp_2.png)
+
+### 2.13 抽象工厂模式
+
+
+
+#### 模式定义
+
+
+
+> 抽象工厂模式(Abstract Factory Pattern)：提供一个创建一系列相关或相互依赖对象的接口，而无须指定它们具体的类。
+
+
+
+#### 模式类图
+
+![抽象工厂模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_afp_1.png)
+
+#### Demo
+
+
+
+- Demo地址：[Abstract Factory Pattern](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B3%5D.%20AFPDemo)
+
+
+
+- Demo对应类图：
+
+![抽象工厂模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_afp_1.png)
+
+
+
+### 2.14 单例模式
+
+
+
+#### 模式定义
+
+
+
+> 单例模式(Singleton Pattern)：单例模式确保某一个类只有一个实例，并提供一个访问它的全剧访问点。
+
+
+
+#### 模式类图
+
+![单例模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_sp_1.png)
+
+#### Demo
+
+
+
+- Demo地址：[Singleton Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B4%5D.%20SPDemo)
+
+
+
+- Demo对应类图：
+
+  ![单例模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_sp_2.png)
+
+
+
+
+### 2.15 生成器模式
+
+
+
+#### 模式定义
+
+
+
+> 生成器模式(Builder Pattern)：也叫创建者模式，它将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
+
+
+
+
+
+#### 模式类图
+
+![生成器模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_bp_11.png)
+
+#### Demo
+
+
+
+- Demo：[Builder Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B5%5D.%20BPDemo)
+
+
+
+- Demo对应类图：
+
+![生成器模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_bp_2.png)
+
+
+
+### 2.16 原型模式
+
+
+
+#### 模式定义
+
+
+
+> 原型模式（Prototype Pattern）: 使用原型实例指定待创建对象的类型，并且通过复制这个原型来创建新的对象。
+
+
+
+#### 模式类图
+
+![原型模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_pp_1111.png)
+
+#### Demo
+
+
+
+- Demo：[Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20PPDemo)
+
+- Demo对应类图：
+
+![原型模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_pp_21.png) 
+
+
+
+
+
+
+
+## 2.2 结构型设计模式
+
+Coming Soon...
+
+
+
+## 2.3 行为型设计模式
+
+Coming Soon...
+
+
 
 
 # License

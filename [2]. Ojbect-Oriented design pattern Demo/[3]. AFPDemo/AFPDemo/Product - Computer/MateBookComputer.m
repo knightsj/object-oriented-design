@@ -1,0 +1,17 @@
+//
+//  HWComputer.m
+//  AFPDemo
+//
+//  Created by Sun Shijie on 2018/10/3.
+//  Copyright © 2018年 Sunshijie. All rights reserved.
+//
+
+#import "MateBookComputer.h"
+
+@implementation MateBookComputer
+
+- (void)packaging{
+    NSLog(@"MateBookComputer has been packaged");
+}
+
+@end
