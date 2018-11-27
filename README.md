@@ -283,7 +283,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 - Demo地址：[Simple Factory Pattern Demo](<https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B1%5D.%20Simple%20Factory%20Pattern%20Demo>)
 
-- Demo对应类图：![简单工厂模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_sfp_2.png)
+- Demo UML：![简单工厂模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_sfp_2.png)
 
 
 
@@ -315,7 +315,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 - Demo地址：[Factory Method Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B2%5D.%20Factory%20Method%20Pattern%20Demo)
 
-- Demo对应类图：
+- Demo UML：
 
 ![工厂方法模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_fmp_2.png)
 
@@ -343,7 +343,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo对应类图：
+- Demo UML：
 
 ![抽象工厂模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_afp_1.png)
 
@@ -373,7 +373,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo对应类图：
+- Demo UML：
 
   ![单例模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_sp_2.png)
 
@@ -402,11 +402,11 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo：[Builder Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B5%5D.%20Builder%20Pattern%20Demo)
+- Demo Link: [Builder Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B5%5D.%20Builder%20Pattern%20Demo)
 
 
 
-- Demo对应类图：
+- Demo UML：
 
 ![生成器模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_bp_2.png)
 
@@ -432,9 +432,9 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo：[Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20PPDemo)
+- Demo Link: [Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
 
-- Demo对应类图：
+- Demo UML：
 
 ![原型模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_pp_21.png) 
 
@@ -446,7 +446,173 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 ## 2.2 结构型设计模式
 
-Coming Soon...
+
+
+### 2.21 外观模式
+
+
+
+#### 模式定义
+
+
+
+> 外观模式(Facade Pattern)：外观模式定义了一个高层接口，为子系统中的一组接口提供一个统一的接口。外观模式又称为门面模式，它是一种结构型设计模式模式。
+
+
+
+#### 模式类图
+
+![外观模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/fp_1.png)
+
+#### Demo
+
+
+
+- Demo Link：[Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+
+- Demo UML：
+
+![外观模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/fp_2.png)
+
+
+### 2.22 适配器模式
+
+
+
+#### 模式定义
+
+
+
+> 适配器模式(Adapter Pattern) ：将一个接口转换成客户希望的另一个接口，使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。适配器模式的别名是包装器模式（Wrapper），是一种结构型设计模式。
+
+
+
+#### 模式类图
+
+对象适配器模式：
+
+![适配器模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/ap_1.png)
+
+
+类适配器模式：
+![类适配器模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/ap_11.png)
+
+#### Demo
+
+
+
+- Demo Link：[Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+
+- Demo UML：
+
+![适配器模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/ap_2.png)
+
+
+### 2.23 桥接模式
+
+
+
+#### 模式定义
+
+
+
+> 桥接模式(Simple Factory Pattern)：将抽象部分与它的实现部分分离,使它们都可以独立地变化。
+
+
+
+#### 模式类图
+
+![桥接模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/bp_11.png)
+
+
+#### Demo
+
+
+
+- Demo Link: [Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+
+- Demo UML：
+
+![桥接模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/bp_2.png)
+
+
+### 2.24 代理模式
+
+
+#### 模式定义
+
+
+
+> 代理模式(Proxy Pattern) ：为某个对象提供一个代理，并由这个代理对象控制对原对象的访问。
+
+
+
+#### 模式类图
+
+![代理模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/pp_1.png)
+
+#### Demo
+
+
+- Demo Link: [Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+
+- Demo UML：
+
+![代理模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/pp_2.png)
+
+### 2.25 装饰者模式
+
+
+
+#### 模式定义
+
+
+
+> 装饰模式(Decorator Pattern) ：不改变原有对象的前提下，动态地给一个对象增加一些额外的功能。
+
+
+
+#### 模式类图
+
+![装饰者模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/dp_1.png)
+
+#### Demo
+
+
+
+- Demo Link: [Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+
+- Demo UML：
+
+![装饰者模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/dp_2.png)
+
+
+### 2.26 享元模式
+
+
+
+#### 模式定义
+
+
+
+> 享元模式(Flyweight Pattern)：运用共享技术复用大量细粒度的对象,降低程序内存的占用,提高程序的性能。
+
+
+
+#### 模式类图
+
+![享元模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/fwp_1.png)
+
+#### Demo
+
+
+
+- Demo Link: [Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+
+- Demo UML：
+
+![享元模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-structure/fwp_223.png)
+
 
 
 
