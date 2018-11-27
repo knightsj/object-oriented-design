@@ -281,7 +281,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo地址：[Simple Factory Pattern Demo](<https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B1%5D.%20SFPDemo>)
+- Demo地址：[Simple Factory Pattern Demo](<https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B1%5D.%20Simple%20Factory%20Pattern%20Demo>)
 
 - Demo对应类图：![简单工厂模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_sfp_2.png)
 
@@ -313,7 +313,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo地址：[Factory Method Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B2%5D.%20FMPDemo)
+- Demo地址：[Factory Method Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B2%5D.%20Factory%20Method%20Pattern%20Demo)
 
 - Demo对应类图：
 
@@ -339,7 +339,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo地址：[Abstract Factory Pattern](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B3%5D.%20AFPDemo)
+- Demo地址：[Abstract Factory Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B3%5D.%20Abstract%20Factory%20Pattern%20Demo)
 
 
 
@@ -369,7 +369,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo地址：[Singleton Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B4%5D.%20SPDemo)
+- Demo地址：[Singleton Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B4%5D.%20Singleton%20Pattern%20Demo)
 
 
 
@@ -402,7 +402,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo：[Builder Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B5%5D.%20BPDemo)
+- Demo：[Builder Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B5%5D.%20Builder%20Pattern%20Demo)
 
 
 
