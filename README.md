@@ -44,10 +44,10 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 ### UML 类图对比
 
 未实践开闭原则：
-![未实践开闭原则](http://oih3a9o4n.bkt.clouddn.com/OCP11.png)
+![未实践开闭原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/OCP11.png)
 
 实践了开闭原则：
-![实践了开闭原则](http://oih3a9o4n.bkt.clouddn.com/OCP2.png)
+![实践了开闭原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/OCP2.png)
 
 
 ### Demo
@@ -80,11 +80,10 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 ### UML 类图对比
 
 未实践单一职责原则：
-![未实践单一职责原则](http://oih3a9o4n.bkt.clouddn.com/SRP11.png)
-
+![未实践单一职责原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/SRP11.png)
 
 实践了单一职责原则：
-![实践了单一职责原则](http://oih3a9o4n.bkt.clouddn.com/SRP2.png)
+![实践了单一职责原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/SRP2.png)
 
 ### Demo
 
@@ -122,11 +121,10 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 未实践依赖倒置原则：
 
-![未实践依赖倒置原则](http://oih3a9o4n.bkt.clouddn.com/DIP1.png)
-
+![未实践依赖倒置原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/DIP1.png)
 
 实践了依赖倒置原则：
-![实践了依赖倒置原则](http://oih3a9o4n.bkt.clouddn.com/DIP22.png)
+![实践了依赖倒置原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/DIP22.png)
 
 ### Demo
 
@@ -159,11 +157,10 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 ### UML 类图对比
 
 未实践接口分离原则：
-![未实践接口分离原则](http://oih3a9o4n.bkt.clouddn.com/ISP1.png)
-
+![未实践接口分离原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/ISP1.png)
 
 实践了接口分离原则：
-![实践了接口分离原则](http://oih3a9o4n.bkt.clouddn.com/ISP2.png)
+![实践了接口分离原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/ISP2.png)
 
 >通过遵守接口分离原则，接口的设计变得更加简洁，而且各种客户类不需要实现自己不需要实现的接口。
 
@@ -190,12 +187,12 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 ### UML 类图对比
 
 未实践迪米特法则：
-![未实践迪米特法则](http://oih3a9o4n.bkt.clouddn.com/LOD111.png)
+![未实践迪米特法则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/LOD111.png)
 
 
 
 实践了迪米特法则：
-![实践了迪米特法则](http://oih3a9o4n.bkt.clouddn.com/LOD2.png)
+![实践了迪米特法则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/LOD2.png)
 
 >很明显，在实践了迪米特法则的 UML 类图里面，没有了``Client``对``GasEngine``的依赖，耦合性降低。
 
@@ -225,12 +222,12 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 未实践里氏替换原则：
 
-![未实践里氏替换原则](http://oih3a9o4n.bkt.clouddn.com/LSP11.png)
+![未实践里氏替换原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/LSP11.png)
 
 
 
 实践了里氏替换原则：
-![实践了里氏替换原则](http://oih3a9o4n.bkt.clouddn.com/LSP22.png)
+![实践了里氏替换原则](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-principle/LSP22.png)
 
 ### Demo
 
@@ -276,7 +273,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### 模式类图
 
-![简单工厂模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_sfp_1.png)
+![简单工厂模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_sfp_1.png)
 
 
 
@@ -286,7 +283,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 - Demo地址：[Simple Factory Pattern Demo](<https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B1%5D.%20SFPDemo>)
 
-- Demo对应类图：![简单工厂模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_sfp_2.png)
+- Demo对应类图：![简单工厂模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_sfp_2.png)
 
 
 
@@ -310,7 +307,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### 模式类图
 
-![工厂方法模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_fmp_1.png)
+![工厂方法模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_fmp_1.png)
 
 #### Demo
 
@@ -320,7 +317,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 - Demo对应类图：
 
-![工厂方法模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_fmp_2.png)
+![工厂方法模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_fmp_2.png)
 
 ### 2.13 抽象工厂模式
 
@@ -336,7 +333,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### 模式类图
 
-![抽象工厂模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_afp_1.png)
+![抽象工厂模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_afp_1.png)
 
 #### Demo
 
@@ -348,7 +345,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 - Demo对应类图：
 
-![抽象工厂模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_afp_1.png)
+![抽象工厂模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_afp_1.png)
 
 
 
@@ -366,7 +363,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### 模式类图
 
-![单例模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_sp_1.png)
+![单例模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_sp_1.png)
 
 #### Demo
 
@@ -378,7 +375,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 - Demo对应类图：
 
-  ![单例模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_sp_2.png)
+  ![单例模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_sp_2.png)
 
 
 
@@ -399,7 +396,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### 模式类图
 
-![生成器模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_bp_11.png)
+![生成器模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_bp_11.png)
 
 #### Demo
 
@@ -411,7 +408,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 - Demo对应类图：
 
-![生成器模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_bp_2.png)
+![生成器模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_bp_2.png)
 
 
 
@@ -429,7 +426,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 #### 模式类图
 
-![原型模式类图](http://oih3a9o4n.bkt.clouddn.com/dp_pp_1111.png)
+![原型模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_pp_1111.png)
 
 #### Demo
 
@@ -439,7 +436,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 - Demo对应类图：
 
-![原型模式代码示例类图](http://oih3a9o4n.bkt.clouddn.com/dp_pp_21.png) 
+![原型模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-creation/dp_pp_21.png) 
 
 
 
