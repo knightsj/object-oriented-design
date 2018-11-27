@@ -8,8 +8,37 @@
 
 # Catalogue
 
-- Chapter 1: 面向对象设计原则（Object Oriented Design Principles）
-- Chapter 2: 面向对象设计模式（Object Oriented Design Patterns）
+- [Chapter 1: 面向对象设计原则（Object Oriented Design Principles）](<https://github.com/knightsj/object-oriented-design#chapter-1%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99>)
+
+  - [原则一：开闭原则（Open Close Principle）](<https://github.com/knightsj/object-oriented-design#%E5%8E%9F%E5%88%99%E4%B8%80%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99open-close-principle>)
+  - [原则二：单一职责原则（Single Responsibility Principle）](<https://github.com/knightsj/object-oriented-design#%E5%8E%9F%E5%88%99%E4%BA%8C%E5%8D%95%E4%B8%80%E8%81%8C%E8%B4%A3%E5%8E%9F%E5%88%99single-responsibility-principle>)
+  - [原则三：依赖倒置原则（Dependency Inversion Principle）](<https://github.com/knightsj/object-oriented-design#%E5%8E%9F%E5%88%99%E4%B8%89%E4%BE%9D%E8%B5%96%E5%80%92%E7%BD%AE%E5%8E%9F%E5%88%99dependency-inversion-principle>)
+  - [原则四：接口分离原则（Interface Segregation Principle）](<https://github.com/knightsj/object-oriented-design#%E5%8E%9F%E5%88%99%E5%9B%9B%E6%8E%A5%E5%8F%A3%E5%88%86%E7%A6%BB%E5%8E%9F%E5%88%99interface-segregation-principle>)
+  - [原则五：迪米特法则（Law of Demeter）](<https://github.com/knightsj/object-oriented-design#%E5%8E%9F%E5%88%99%E4%BA%94%E8%BF%AA%E7%B1%B3%E7%89%B9%E6%B3%95%E5%88%99law-of-demeter>)
+  - [原则六：里氏替换原则（Liskov Substitution Principle）](<https://github.com/knightsj/object-oriented-design#%E5%8E%9F%E5%88%99%E5%85%AD%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99liskov-substitution-principle>)
+
+- [Chapter 2: 面向对象设计模式（Object Oriented Design Patterns）](<https://github.com/knightsj/object-oriented-design#chapter-2%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F>)
+
+  - [2.1 创建型设计模式](<https://github.com/knightsj/object-oriented-design#chapter-2%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F>)
+
+    - [2.11 简单工厂模式](<https://github.com/knightsj/object-oriented-design#211-%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F>)
+    - [2.12 工厂方法模式](<https://github.com/knightsj/object-oriented-design#212-%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E6%A8%A1%E5%BC%8F>)
+    - [2.13 抽象工厂模式](<https://github.com/knightsj/object-oriented-design#213-%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F>)
+    - [2.14 单例模式](<https://github.com/knightsj/object-oriented-design#214-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F>)
+    - [2.15 生成器模式](<https://github.com/knightsj/object-oriented-design#215-%E7%94%9F%E6%88%90%E5%99%A8%E6%A8%A1%E5%BC%8F>)
+    - [2.16 原型模式](<https://github.com/knightsj/object-oriented-design#216-%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F>)
+
+  - [2.2 结构型设计模式](<https://github.com/knightsj/object-oriented-design#22-%E7%BB%93%E6%9E%84%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F>)
+
+    - [2.21 外观模式](<https://github.com/knightsj/object-oriented-design#221-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F>)
+    - [2.22 适配器模式](<https://github.com/knightsj/object-oriented-design#222-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F>)
+    - [2.23 桥接模式](<https://github.com/knightsj/object-oriented-design#223-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F>)
+    - [2.24 代理模式](<https://github.com/knightsj/object-oriented-design#224-%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F>)
+    - [2.25 装饰者模式](<https://github.com/knightsj/object-oriented-design#225-%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F>)
+    - [2.26 享元模式](<https://github.com/knightsj/object-oriented-design#226-%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F>)
+
+  - [2.3 行为型设计模式](https://github.com/knightsj/object-oriented-design#23-%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
+
 
 
 
@@ -291,7 +320,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-### 2.12 工厂方法模式模式
+### 2.12 工厂方法模式
 
 
 
@@ -468,7 +497,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link：[Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+- Demo Link：[Facade Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B7%5D.%20Facade%20Pattern%20Demo)
 
 - Demo UML：
 
@@ -501,7 +530,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link：[Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+- Demo Link：[Adaptor Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B8%5D.%20Adaptor%20Pattern%20Demo)
 
 - Demo UML：
 
@@ -529,7 +558,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+- Demo Link: [Bridge Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B9%5D.%20Bridge%20Pattern%20Demo)
 
 - Demo UML：
 
@@ -554,7 +583,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 #### Demo
 
 
-- Demo Link: [Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+- Demo Link: [Proxy Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B10%5D.%20Proxy%20Pattern%20Demo)
 
 - Demo UML：
 
@@ -580,7 +609,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+- Demo Link: [Decorator Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B11%5D.%20Decorator%20Pattern%20Demo)
 
 - Demo UML：
 
@@ -607,7 +636,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Prototype Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B6%5D.%20Prototype%20Pattern%20Demo)
+- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
 
 - Demo UML：
 
