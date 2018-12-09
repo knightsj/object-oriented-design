@@ -6,6 +6,14 @@
 
 
 
+中文博客链接：
+
+- [面向对象设计的六大设计原则（附 Demo & UML类图）](https://juejin.im/post/5b9526c1e51d450e69731dc2)
+- [面向对象设计的设计模式（一）：创建型模式（附 Demo & UML类图）](https://juejin.im/post/5bcb0362e51d450e7042eb6d)
+- [面向对象设计的设计模式（二）：结构型模式（附 Demo & UML类图）](https://juejin.im/post/5bfd60455188257a5a24f2d4)
+
+
+
 # Catalogue
 
 - [Chapter 1: 面向对象设计原则（Object Oriented Design Principles）](<https://github.com/knightsj/object-oriented-design#chapter-1%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99>)
