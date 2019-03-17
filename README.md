@@ -46,14 +46,21 @@
     - [2.26 享元模式](<https://github.com/knightsj/object-oriented-design#226-%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F>)
 
   - [2.3 行为型设计模式](https://github.com/knightsj/object-oriented-design#23-%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
-   - [2.31 模板方法模式]
-   - [2.32 策略模式]
-   - [2.33 责任链模式]
-   - [2.34 状态模式]
-   - [2.35 命令模式]
-   - [2.36 观察者模式]
-   - [2.37 中介者模式]
-   
+
+    - [2.31 模板方法模式](https://github.com/knightsj/object-oriented-design#231-%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F)
+
+    - [2.32 策略模式](https://github.com/knightsj/object-oriented-design#232-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F)
+
+    - [2.33 责任链模式](https://github.com/knightsj/object-oriented-design#233-%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F)
+
+    - [2.34 状态模式](https://github.com/knightsj/object-oriented-design#234-%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F)
+
+    - [2.35 命令模式](https://github.com/knightsj/object-oriented-design#235-%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F)
+
+    - [2.36 观察者模式](https://github.com/knightsj/object-oriented-design#236-%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F)
+
+    - [2.37 中介者模式](https://github.com/knightsj/object-oriented-design#237-%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F)
+
 # Chapter 1：面向对象设计原则
 
 
@@ -679,7 +686,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+- Demo Link: [Template Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B13%5D.%20Template%20Pattern%20Demo)
 
 - Demo UML：
 
@@ -708,7 +715,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+- Demo Link: [Strategy Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B14%5D.%20Strategy%20Pattern%20Demo)
 
 - Demo UML：
 
@@ -736,15 +743,16 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
-
+- Demo Link: 
+  - Before refactoring:[Chain of Responsibilty Pattern Demo (before refactoring)](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B15%5D.%20Chain%20of%20Responsibilty%20Pattern%20Demo%20(before%20refactoring))
+  - After refactoring:[Chain of Responsibilty Pattern Demo (after refactoring)](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B16%5D.%20Chain%20of%20Responsibilty%20Pattern%20Demo%20(after%20refactoring))
 - Demo UML：
 
   - Before refactoring：
-![责任链模式代码示例类图一](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/cp_2.png)
+  ![责任链模式代码示例类图一](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/cp_2.png)
 
   - After refactoring：
-![责任链模式代码示例类图二](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/cp_3.png)
+  ![责任链模式代码示例类图二](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/cp_3.png)
 
 
 
@@ -769,8 +777,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
-
+- Demo Link: [State Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B17%5D.%20State%20Pattern%20Demo)
 - Demo UML：
 
 ![状态模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/sp_2.png)
@@ -795,7 +802,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+- Demo Link: [Command Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B18%5D.%20Command%20Pattern%20Demo)
 
 - Demo UML：
 
@@ -823,7 +830,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+- Demo Link: [Obsever Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B19%5D.%20Observer%20Pattern%20Demo)
 
 - Demo UML：
 
@@ -848,7 +855,7 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 
 
-- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+- Demo Link: [Mediator Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B20%5D.Mediator%20Pattern%20Demo)
 
 - Demo UML：
 
