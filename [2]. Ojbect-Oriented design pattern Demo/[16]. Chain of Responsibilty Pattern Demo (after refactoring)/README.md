@@ -1,4 +1,4 @@
-# 生成器模式代码示例
+# # 责任链模式代码示例（重构后）
 
 
 首先删除掉三个具体处理者``DispenseChainNodeFor50Yuan``,``DispenseChainNodeFor20Yuan``,``DispenseChainNodeFor10Yuan``。

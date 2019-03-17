@@ -14,7 +14,7 @@
 
 
 
-# Catalogue
+# Catalogue & Link
 
 - [Chapter 1: 面向对象设计原则（Object Oriented Design Principles）](<https://github.com/knightsj/object-oriented-design#chapter-1%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99>)
 
@@ -48,17 +48,11 @@
   - [2.3 行为型设计模式](https://github.com/knightsj/object-oriented-design#23-%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
 
     - [2.31 模板方法模式](https://github.com/knightsj/object-oriented-design#231-%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F)
-
     - [2.32 策略模式](https://github.com/knightsj/object-oriented-design#232-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F)
-
     - [2.33 责任链模式](https://github.com/knightsj/object-oriented-design#233-%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F)
-
     - [2.34 状态模式](https://github.com/knightsj/object-oriented-design#234-%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F)
-
     - [2.35 命令模式](https://github.com/knightsj/object-oriented-design#235-%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F)
-
     - [2.36 观察者模式](https://github.com/knightsj/object-oriented-design#236-%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F)
-
     - [2.37 中介者模式](https://github.com/knightsj/object-oriented-design#237-%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F)
 
 # Chapter 1：面向对象设计原则
