@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB247229222AB00200CC4B1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB247228222AB00200CC4B1C /* AppDelegate.m */; };
+		CB24722C222AB00200CC4B1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB24722B222AB00200CC4B1C /* ViewController.m */; };
+		CB24722F222AB00200CC4B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB24722D222AB00200CC4B1C /* Main.storyboard */; };
+		CB247231222AB00400CC4B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB247230222AB00400CC4B1C /* Assets.xcassets */; };
+		CB247234222AB00400CC4B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB247232222AB00400CC4B1C /* LaunchScreen.storyboard */; };
+		CB247237222AB00400CC4B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB247236222AB00400CC4B1C /* main.m */; };
+		CB85AAD3222ADEDB00AE28EF /* DispenseChainNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CB85AAD2222ADEDB00AE28EF /* DispenseChainNode.m */; };
+		CB85AAD6222ADF1100AE28EF /* DispenseChainNodeFor50Yuan.m in Sources */ = {isa = PBXBuildFile; fileRef = CB85AAD5222ADF1100AE28EF /* DispenseChainNodeFor50Yuan.m */; };
+		CB85AAD9222ADF1C00AE28EF /* DispenseChainNodeFor10Yuan.m in Sources */ = {isa = PBXBuildFile; fileRef = CB85AAD8222ADF1C00AE28EF /* DispenseChainNodeFor10Yuan.m */; };
+		CB85AADC222ADF2900AE28EF /* DispenseChainNodeFor20Yuan.m in Sources */ = {isa = PBXBuildFile; fileRef = CB85AADB222ADF2900AE28EF /* DispenseChainNodeFor20Yuan.m */; };
+		CB85AADF222AE25A00AE28EF /* ATMDispenseChain.m in Sources */ = {isa = PBXBuildFile; fileRef = CB85AADE222AE25A00AE28EF /* ATMDispenseChain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB247224222AB00200CC4B1C /* CRPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB247227222AB00200CC4B1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB247228222AB00200CC4B1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB24722A222AB00200CC4B1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB24722B222AB00200CC4B1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB24722E222AB00200CC4B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB247230222AB00400CC4B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB247233222AB00400CC4B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB247235222AB00400CC4B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB247236222AB00400CC4B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB36FBEA222B8AD00024B2D9 /* DispenseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispenseProtocol.h; sourceTree = "<group>"; };
+		CB85AAD1222ADEDB00AE28EF /* DispenseChainNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispenseChainNode.h; sourceTree = "<group>"; };
+		CB85AAD2222ADEDB00AE28EF /* DispenseChainNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispenseChainNode.m; sourceTree = "<group>"; };
+		CB85AAD4222ADF1100AE28EF /* DispenseChainNodeFor50Yuan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispenseChainNodeFor50Yuan.h; sourceTree = "<group>"; };
+		CB85AAD5222ADF1100AE28EF /* DispenseChainNodeFor50Yuan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispenseChainNodeFor50Yuan.m; sourceTree = "<group>"; };
+		CB85AAD7222ADF1C00AE28EF /* DispenseChainNodeFor10Yuan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispenseChainNodeFor10Yuan.h; sourceTree = "<group>"; };
+		CB85AAD8222ADF1C00AE28EF /* DispenseChainNodeFor10Yuan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispenseChainNodeFor10Yuan.m; sourceTree = "<group>"; };
+		CB85AADA222ADF2900AE28EF /* DispenseChainNodeFor20Yuan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispenseChainNodeFor20Yuan.h; sourceTree = "<group>"; };
+		CB85AADB222ADF2900AE28EF /* DispenseChainNodeFor20Yuan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispenseChainNodeFor20Yuan.m; sourceTree = "<group>"; };
+		CB85AADD222AE25A00AE28EF /* ATMDispenseChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATMDispenseChain.h; sourceTree = "<group>"; };
+		CB85AADE222AE25A00AE28EF /* ATMDispenseChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATMDispenseChain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB247221222AB00200CC4B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB24721B222AB00200CC4B1C = {
+			isa = PBXGroup;
+			children = (
+				CB247226222AB00200CC4B1C /* CRPDemo */,
+				CB247225222AB00200CC4B1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB247225222AB00200CC4B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB247224222AB00200CC4B1C /* CRPDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB247226222AB00200CC4B1C /* CRPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CB247227222AB00200CC4B1C /* AppDelegate.h */,
+				CB247228222AB00200CC4B1C /* AppDelegate.m */,
+				CB24722A222AB00200CC4B1C /* ViewController.h */,
+				CB24722B222AB00200CC4B1C /* ViewController.m */,
+				CB24722D222AB00200CC4B1C /* Main.storyboard */,
+				CB247230222AB00400CC4B1C /* Assets.xcassets */,
+				CB247232222AB00400CC4B1C /* LaunchScreen.storyboard */,
+				CB247235222AB00400CC4B1C /* Info.plist */,
+				CB247236222AB00400CC4B1C /* main.m */,
+				CB85AAD1222ADEDB00AE28EF /* DispenseChainNode.h */,
+				CB85AAD2222ADEDB00AE28EF /* DispenseChainNode.m */,
+				CB85AAD4222ADF1100AE28EF /* DispenseChainNodeFor50Yuan.h */,
+				CB85AAD5222ADF1100AE28EF /* DispenseChainNodeFor50Yuan.m */,
+				CB85AADA222ADF2900AE28EF /* DispenseChainNodeFor20Yuan.h */,
+				CB85AADB222ADF2900AE28EF /* DispenseChainNodeFor20Yuan.m */,
+				CB85AAD7222ADF1C00AE28EF /* DispenseChainNodeFor10Yuan.h */,
+				CB85AAD8222ADF1C00AE28EF /* DispenseChainNodeFor10Yuan.m */,
+				CB85AADD222AE25A00AE28EF /* ATMDispenseChain.h */,
+				CB85AADE222AE25A00AE28EF /* ATMDispenseChain.m */,
+				CB36FBEA222B8AD00024B2D9 /* DispenseProtocol.h */,
+			);
+			path = CRPDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB247223222AB00200CC4B1C /* CRPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB24723A222AB00400CC4B1C /* Build configuration list for PBXNativeTarget "CRPDemo" */;
+			buildPhases = (
+				CB247220222AB00200CC4B1C /* Sources */,
+				CB247221222AB00200CC4B1C /* Frameworks */,
+				CB247222222AB00200CC4B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRPDemo;
+			productName = CRPDemo;
+			productReference = CB247224222AB00200CC4B1C /* CRPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB24721C222AB00200CC4B1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sunshijie;
+				TargetAttributes = {
+					CB247223222AB00200CC4B1C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CB24721F222AB00200CC4B1C /* Build configuration list for PBXProject "CRPDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB24721B222AB00200CC4B1C;
+			productRefGroup = CB247225222AB00200CC4B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB247223222AB00200CC4B1C /* CRPDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB247222222AB00200CC4B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB247234222AB00400CC4B1C /* LaunchScreen.storyboard in Resources */,
+				CB247231222AB00400CC4B1C /* Assets.xcassets in Resources */,
+				CB24722F222AB00200CC4B1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB247220222AB00200CC4B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB85AAD3222ADEDB00AE28EF /* DispenseChainNode.m in Sources */,
+				CB24722C222AB00200CC4B1C /* ViewController.m in Sources */,
+				CB85AAD6222ADF1100AE28EF /* DispenseChainNodeFor50Yuan.m in Sources */,
+				CB85AADC222ADF2900AE28EF /* DispenseChainNodeFor20Yuan.m in Sources */,
+				CB85AADF222AE25A00AE28EF /* ATMDispenseChain.m in Sources */,
+				CB247237222AB00400CC4B1C /* main.m in Sources */,
+				CB247229222AB00200CC4B1C /* AppDelegate.m in Sources */,
+				CB85AAD9222ADF1C00AE28EF /* DispenseChainNodeFor10Yuan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB24722D222AB00200CC4B1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB24722E222AB00200CC4B1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB247232222AB00400CC4B1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB247233222AB00400CC4B1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB247238222AB00400CC4B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB247239222AB00400CC4B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB24723B222AB00400CC4B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sunshijie.CRPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB24723C222AB00400CC4B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CRPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sunshijie.CRPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB24721F222AB00200CC4B1C /* Build configuration list for PBXProject "CRPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB247238222AB00400CC4B1C /* Debug */,
+				CB247239222AB00400CC4B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB24723A222AB00400CC4B1C /* Build configuration list for PBXNativeTarget "CRPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB24723B222AB00400CC4B1C /* Debug */,
+				CB24723C222AB00400CC4B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB24721C222AB00200CC4B1C /* Project object */;
+}

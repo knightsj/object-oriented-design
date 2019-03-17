@@ -46,10 +46,14 @@
     - [2.26 享元模式](<https://github.com/knightsj/object-oriented-design#226-%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F>)
 
   - [2.3 行为型设计模式](https://github.com/knightsj/object-oriented-design#23-%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
-
-
-
-
+   - [2.31 模板方法模式]
+   - [2.32 策略模式]
+   - [2.33 责任链模式]
+   - [2.34 状态模式]
+   - [2.35 命令模式]
+   - [2.36 观察者模式]
+   - [2.37 中介者模式]
+   
 # Chapter 1：面向对象设计原则
 
 
@@ -655,9 +659,201 @@ DIP | Dependency Inversion Principle | 依赖倒置原则
 
 ## 2.3 行为型设计模式
 
-Coming Soon...
+### 2.31 模板方法模式
 
 
+
+#### 模式定义
+
+
+
+> 在模板模式（Template Method Pattern）中，定义一个操作中的算法的框架，而将一些步骤的执行延迟到子类中，使得子类可以在不改变算法的结构的前提下即可重新定义该算法的某些特定步骤。
+
+
+#### 模式类图
+
+![模板方法模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/tp_1.png)
+
+
+#### Demo
+
+
+
+- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+
+- Demo UML：
+
+
+![模板方法模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/tp_2.png)
+
+
+
+
+### 2.32 策略模式
+
+
+
+#### 模式定义
+
+
+> 策略模式(Strategy Pattern)：定义一系列算法，将每一个算法封装起来，并让它们可以相互替换。
+
+
+#### 模式类图
+
+![策略模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/stap_1.png)
+
+
+#### Demo
+
+
+
+- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+
+- Demo UML：
+
+![策略模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/stap_2.png)
+
+
+### 2.33 责任链模式
+
+
+#### 模式定义
+
+
+> 责任链模式（Chain of Responsibility Pattern）：为请求创建了一个接收者对象的链，每个接收者都包含对另一个接收者的引用。如果一个对象不能处理该请求，那么它会把相同的请求传给下一个接收者，依此类推。
+
+
+
+
+#### 模式类图
+
+
+![责任链模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/crp_1.png)
+
+
+#### Demo
+
+
+
+- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+
+- Demo UML：
+
+  - Before refactoring：
+![责任链模式代码示例类图一](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/cp_2.png)
+
+  - After refactoring：
+![责任链模式代码示例类图二](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/cp_3.png)
+
+
+
+### 2.34 状态模式
+
+
+
+#### 模式定义
+
+
+> 在状态模式（State Pattern）：允许一个对象在其内部状态改变时，改变它的行为。
+
+
+
+#### 模式类图
+
+
+![状态模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/sp_1.png)
+
+
+#### Demo
+
+
+
+- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+
+- Demo UML：
+
+![状态模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/sp_2.png)
+
+
+### 2.35 命令模式
+
+
+
+#### 模式定义
+
+
+> 命令模式(Command Pattern)：命令（或请求）被封装成对象。客户端将命令（或请求）对象先传递给调用对象。调用对象再把该命令（或请求）对象传给合适的，可处理该命令（或请求）的对象来做处理。
+
+
+
+#### 模式类图
+
+![命令模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/cd_1.png)
+
+#### Demo
+
+
+
+- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+
+- Demo UML：
+
+![命令模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/cd_2.png)
+
+
+### 2.36 观察者模式
+
+
+
+#### 模式定义
+
+
+
+> 观察者模式(Observer Pattern)：定义对象间的一种一对多的依赖关系，使得每当一个对象状态发生改变时，其相关依赖对象都可以到通知并做相应针对性的处理。
+
+
+
+#### 模式类图
+
+![观察者模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/op_1.png)
+
+
+#### Demo
+
+
+
+- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+
+- Demo UML：
+
+![观察者模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/op_2.png)
+
+
+### 2.37 中介者模式
+
+
+
+#### 模式定义
+
+
+> 中介者模式(Mediator Pattern)：用一个中介对象来封装一系列的对象交互，中介者使各对象之间不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
+
+
+#### 模式类图
+
+![状态模式类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/mp_1.png)
+
+#### Demo
+
+
+
+- Demo Link: [Flyweight Pattern Demo](https://github.com/knightsj/object-oriented-design/tree/master/%5B2%5D.%20Ojbect-Oriented%20design%20pattern%20Demo/%5B12%5D.%20Flyweight%20Pattern%20Demo)
+
+- Demo UML：
+
+
+![中介者模式代码示例类图](http://jknight-blog.oss-cn-shanghai.aliyuncs.com/design-pattern-behavior/mp_2.png)
 
 
 # License
