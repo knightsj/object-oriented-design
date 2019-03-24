@@ -11,6 +11,7 @@
 - [面向对象设计的六大设计原则（附 Demo & UML类图）](https://juejin.im/post/5b9526c1e51d450e69731dc2)
 - [面向对象设计的设计模式（一）：创建型模式（附 Demo & UML类图）](https://juejin.im/post/5bcb0362e51d450e7042eb6d)
 - [面向对象设计的设计模式（二）：结构型模式（附 Demo & UML类图）](https://juejin.im/post/5bfd60455188257a5a24f2d4)
+- [面向对象设计的设计模式（三）：行为型模式（附 Demo & UML类图）](https://juejin.im/post/5c8df92151882545bc34f7a5)
 
 
 
